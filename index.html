@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="design practice">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <title>design has no fear</title>
+
+    <meta name="mobile-web-app-capable" content="yes">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.grey-orange.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Dosis|Nanum+Gothic" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+      <div class="title" >
+      <h1>Design has no fear</h1>
+      <div class="sub">My design practice - Create design that focus on social justice<br></div>
+          
+          </div>
+      <div style="text-align:center">
+    <div class="dot">
+          <span class="dot1"><h4>Design as communication<span class="communication"> Design’s a medium. It’s a mode of address, a bridge to reach audiences, a means of communication. 
+</span></h4></span>
+        <span class="dot2" id="drag"><p class="problem">Define problem<span class="statement">My design practice starts from identifying the social issue and start a problem statement. 
+</span></p></span>
+        <span class="dot3" id="drag3"><p class="prototype">prototype</p>
+<img src="images/pages_s.png"/></span>
+        
+         <span class="dot6" id="drag2"><p>Envision<span class="vision">what does the world look like if we solve the problem? 
+</span></p></span>
+        
+        <span class="dot5" id="drag4"><p>Research<span class="research">Do lots of research to clarify the current situation and from there think about possible design solution to either present the problem and call for action or offer solutions for the problem.
+</span></p></span>
+        
+         <span class="dot4" id="drag5"><p>Reference<span class="reference"> Look into the collection of ideas, culture, and history, as examples of the social, political, and economic climate. 
+</span></p></span>
+        
+        <span class="dot7" id="drag6"><p>Collaboration<span class="collaborate">Collaborate with each other to exchange idea and work together with each other's strength. Be open-minded to new information or different opinion and perspective.
+</span></p></span>
+        
+          </div>
+          
+      </div>
+        <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  </body>
+  <script>
+    Array.prototype.forEach.call(document.querySelectorAll('.mdl-card__media'), function(el) {
+      var link = el.querySelector('a');
+      if(!link) {
+        return;
+      }
+      var target = link.getAttribute('href');
+      if(!target) {
+        return;
+      }
+      el.addEventListener('click', function() {
+        location.href = target;
+      });
+    });
+      
+        $( function() {
+    $( "#drag" ).draggable();
+  } );
+      
+      $( function() {
+    $( "#drag2" ).draggable();
+  } );
+      
+       $( function() {
+    $( "#drag3" ).draggable();
+  } );
+        $( function() {
+    $( "#drag4" ).draggable();
+  } );
+      
+      $( function() {
+    $( "#drag5" ).draggable();
+  } );
+      
+       $( function() {
+    $( "#drag6" ).draggable();
+  } );
+  </script>
+</html>
