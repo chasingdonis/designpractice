@@ -81,7 +81,7 @@ img{
 }
 
 .prototype {
-    z-index: 3;
+    z-index: 9;
 }
 
 .dot3 {
@@ -102,19 +102,8 @@ img{
   background-color: rgba(220,	168, 55, 0.7);
     border-radius: 50%;
     display: inline-block;
-     top: 450px;
+     top: 470px;
     left:320px;
-}
-
-.vision, .research, .statement, .communication, .reference, .collaborate, .blank {
-    visibility: hidden;
-    width: 500px;
-    color: #000;
-    text-align: left;
-    padding: 10px;
-    position: absolute;
-    font-size: 14px;
-    z-index: 1;
 }
 
 .dot6:hover .vision {
@@ -173,17 +162,229 @@ img{
   height: 50px;
   width: 50px;
    position:absolute;
-  background-color: rgba(220,168, 55, 0.5);
+  background-color: rgba(220,168, 55, 0.6);
     border-radius: 50%;
     display: inline-block;
      top: 750px;
     left:1000px;
 }
+.dot9 {
+  height: 80px;
+  width: 80px;
+   position:absolute;
+  background-color: rgba(220,168, 55, 0.7);
+    border-radius: 50%;
+    display: inline-block;
+     top: 470px;
+    left:850px;
+}
 
 .dot8:hover .blank {
     visibility: visible;
 }
+.dot9:hover .optimistic{
+    visibility: visible;
+}
 
+.optimistic, .interact, .evolve, .story, .possibilities, .vision, .research, .statement, .communication, .reference, .collaborate, .blank, .optimistic, .clarity, .visual, .building, .revisit, .strategies, .culture  {
+    visibility: hidden;
+    width: 300px;
+    color: #000;
+    text-align: left;
+    padding: 10px;
+    position: absolute;
+    font-size: 14px;
+    z-index: 1;
+}
+
+.dot10 {
+  height: 50px;
+  width: 50px;
+   position:absolute;
+  background-color: rgba(220,168, 55, 0.6);
+    border-radius: 50%;
+    display: inline-block;
+     top: 560px;
+    left:200px;
+}
+.dot10:hover .blank {
+    visibility: visible;
+}
+
+.dot11 {
+  height: 80px;
+  width: 80px;
+   position:absolute;
+  background-color: rgba(220,168, 55, 0.7);
+    border-radius: 50%;
+    display: inline-block;
+     top: 750px;
+    left:300px;
+}
+.dot11:hover .clarity {
+    visibility: visible;
+}
+
+.dot12 {
+  height: 80px;
+  width: 80px;
+   position:absolute;
+  background-color: rgba(220,168, 55, 0.7);
+    border-radius: 50%;
+    display: inline-block;
+     top: 720px;
+    left:680px;
+}
+
+.dot12:hover .visual {
+    visibility: visible;
+}
+
+.dot13 {
+  height: 80px;
+  width: 80px;
+   position:absolute;
+  background-color: rgba(220,168, 55, 0.7);
+    border-radius: 50%;
+    display: inline-block;
+     top: 620px;
+    left:80px;
+}
+
+.dot13:hover .building {
+    visibility: visible;
+}
+
+.dot14 {
+  height: 80px;
+  width: 80px;
+   position:absolute;
+  background-color: rgba(220,168, 55, 0.7);
+    border-radius: 50%;
+    display: inline-block;
+     top: 890px;
+    left:160px;
+}
+.dot14:hover .interact {
+    visibility: visible;
+}
+
+.dot15 {
+  height: 80px;
+  width: 80px;
+   position:absolute;
+  background-color: rgba(220,168, 55, 0.7);
+    border-radius: 50%;
+    display: inline-block;
+     top: 820px;
+    left:820px;
+}
+.dot15:hover .evolve {
+    visibility: visible;
+}
+
+.dot16 {
+  height: 80px;
+  width: 80px;
+   position:absolute;
+  background-color: rgba(220,168, 55, 0.7);
+    border-radius: 50%;
+    display: inline-block;
+     top: 1000px;
+    left:600px;
+}
+
+.dot16:hover .revisit {
+    visibility: visible;
+}
+
+.dot17 {
+  height: 80px;
+  width: 80px;
+   position:absolute;
+  background-color: rgba(220,168, 55, 0.7);
+    border-radius: 50%;
+    display: inline-block;
+     top: 390px;
+    left:450px;
+}
+
+.dot17:hover .story {
+    visibility: visible;
+}
+
+.dot18 {
+  height: 80px;
+  width: 80px;
+   position:absolute;
+  background-color: rgba(220,168, 55, 0.7);
+    border-radius: 50%;
+    display: inline-block;
+     top: 850px;
+    left:450px;
+}
+
+.dot18:hover .possibilities {
+    visibility: visible;
+}
+
+.dot19 {
+  height: 80px;
+  width: 80px;
+   position:absolute;
+  background-color: rgba(220,168, 55, 0.7);
+    border-radius: 50%;
+    display: inline-block;
+     top: 605px;
+    left:890px;
+}
+
+.dot19:hover .strategies {
+    visibility: visible;
+}
+
+.dot20 {
+  height: 80px;
+  width: 80px;
+   position:absolute;
+  background-color: rgba(220,168, 55, 0.7);
+    border-radius: 50%;
+    display: inline-block;
+     top: 925px;
+    left:900px;
+}
+
+.dot20:hover .culture {
+    visibility: visible;
+}
+
+.dot21 {
+  height: 50px;
+  width: 50px;
+   position:absolute;
+  background-color: rgba(220,168, 55, 0.6);
+    border-radius: 50%;
+    display: inline-block;
+     top: 260px;
+    left:400px;
+}
+.dot21:hover .blank {
+    visibility: visible;
+}
+
+.dot22 {
+  height: 50px;
+  width: 50px;
+   position:absolute;
+  background-color: rgba(220,168, 55, 0.6);
+    border-radius: 50%;
+    display: inline-block;
+     top: 660px;
+    left:500px;
+}
+.dot22:hover .blank {
+    visibility: visible;
+}
 
 @media (max-width: 512px)  and (-webkit-min-device-pixel-ratio: 1.5),
        (max-width: 512px)  and (min-resolution: 1.5dppx),
